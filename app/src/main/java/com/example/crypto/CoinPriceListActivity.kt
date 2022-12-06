@@ -1,1 +1,9 @@
-package com.example.cry
+package com.example.crypto
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.example.crypto.fragment.CoinPricefragment1
+
+class CoinPriceListActivity : AppCompatActivity() {
+
+    override fu
