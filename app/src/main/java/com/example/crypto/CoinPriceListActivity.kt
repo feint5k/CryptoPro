@@ -6,4 +6,7 @@ import com.example.crypto.fragment.CoinPricefragment1
 
 class CoinPriceListActivity : AppCompatActivity() {
 
-    override fu
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.coin_price_list_activity)
+        supportFragme
