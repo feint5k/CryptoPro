@@ -18,4 +18,6 @@ class CoinPriceListActivity : AppCompatActivity() {
              }
 
 
-    
+    }
+
+
