@@ -7,4 +7,8 @@ import androidx.lifecycle.LiveData
 import com.example.crypto.api.ApiFactory
 import com.example.crypto.database.AppDatabase
 import com.example.crypto.pojo.CoinPriceInfo
-import com.example.crypto.pojo.Coi
+import com.example.crypto.pojo.CoinPriceRAW
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutine
