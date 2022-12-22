@@ -40,4 +40,7 @@ class CoinViewModel(application: Application) : AndroidViewModel(application) {
     private fun addToDataBase(coinPriceRAW: CoinPriceRAW) {
         val keys = coinPriceRAW.coinPriceInfoObject?.keys
         val list = mutableListOf<CoinPriceInfo>()
- 
+        keys?.forEach { key ->
+            coinPriceRAW.coinPriceInfoObject[key]?.get("USD")?.let { list.add(it) }
+        }
+        db.coinPriceInfoDao().ins
