@@ -35,4 +35,9 @@ class CoinViewModel(application: Application) : AndroidViewModel(application) {
         if (fullPriceList != null) {
             addToDataBase(fullPriceList)
         }
+    }
+
+    private fun addToDataBase(coinPriceRAW: CoinPriceRAW) {
+        val keys = coinPriceRAW.coinPriceInfoObject?.keys
+        val list = mutableListOf<CoinPriceInfo>()
  
