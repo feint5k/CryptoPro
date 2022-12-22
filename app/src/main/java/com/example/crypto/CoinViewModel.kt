@@ -20,4 +20,13 @@ class CoinViewModel(application: Application) : AndroidViewModel(application) {
     private val compositeDisposable = CompositeDisposable()
 
     init {
-        GlobalScope.launch { loadD
+        GlobalScope.launch { loadData() }
+    }
+
+
+    fun getDetailInfo(fSym: String): LiveData<CoinPriceInfo> {
+        return db.coinPriceInfoDao().getPriceInfoAboutCoin(fSym)
+    }
+
+    private suspend fun loadData() {
+ 
