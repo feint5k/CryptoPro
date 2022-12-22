@@ -43,4 +43,11 @@ class CoinViewModel(application: Application) : AndroidViewModel(application) {
         keys?.forEach { key ->
             coinPriceRAW.coinPriceInfoObject[key]?.get("USD")?.let { list.add(it) }
         }
-        db.coinPriceInfoDao().ins
+        db.coinPriceInfoDao().insertPriceList(list)
+    }
+
+    override fun onCleared() {
+        super.onCleared()
+        compositeDisposable.dispose()
+    }
+}
