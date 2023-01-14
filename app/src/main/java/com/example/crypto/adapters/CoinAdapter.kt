@@ -20,4 +20,8 @@ class CoinAdapter(private val context: CoinPricefragment1) :
         }
     var onCoinClickListener: OnCoinClickListener? = null
 
-    inner class CoinViewHolder(item
+    inner class CoinViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val logoCoin = itemView.ivLogoCoin
+        val tvUpdate = itemView.tvUpdate
+        val tvPrice = itemView.tvPrice
+       
