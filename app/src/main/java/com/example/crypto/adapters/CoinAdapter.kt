@@ -24,4 +24,10 @@ class CoinAdapter(private val context: CoinPricefragment1) :
         val logoCoin = itemView.ivLogoCoin
         val tvUpdate = itemView.tvUpdate
         val tvPrice = itemView.tvPrice
-       
+        val tvSymbols = itemView.tvSymbols
+
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoinViewHolder {
+        val view =
+         
