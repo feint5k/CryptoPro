@@ -34,4 +34,7 @@ class CoinAdapter(private val context: CoinPricefragment1) :
         return CoinViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder
+    override fun onBindViewHolder(holder: CoinViewHolder, position: Int) {
+        val coin = coinInfoList[position]
+        holder.itemView.setOnClickListener {
+            onCoinClickListener?.onCoinClick(coi
