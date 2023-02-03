@@ -37,4 +37,8 @@ class CoinAdapter(private val context: CoinPricefragment1) :
     override fun onBindViewHolder(holder: CoinViewHolder, position: Int) {
         val coin = coinInfoList[position]
         holder.itemView.setOnClickListener {
-            onCoinClickListener?.onCoinClick(coi
+            onCoinClickListener?.onCoinClick(coin)
+        }
+        with(holder) {
+            val symbolsTemplate = context.resources.getString(R.string.symbols_template)
+            val lastTemplate = context
