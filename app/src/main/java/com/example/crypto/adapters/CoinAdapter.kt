@@ -41,4 +41,6 @@ class CoinAdapter(private val context: CoinPricefragment1) :
         }
         with(holder) {
             val symbolsTemplate = context.resources.getString(R.string.symbols_template)
-            val lastTemplate = context
+            val lastTemplate = context.resources.getString(R.string.last_update_str)
+            tvSymbols.text = String.format(symbolsTemplate, coin.FROMSYMBOL, coin.TOSYMBOL)
+            tvPrice.
