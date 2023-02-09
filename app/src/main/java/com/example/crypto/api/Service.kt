@@ -18,4 +18,9 @@ interface Service {
     suspend fun getFullPriceList(
         @Query(QUERY_PARAM_TSIMBOLS) tSyms: String = QUERY_PARAM_CURRENCY,
         @Query(QUERY_PARAM_FSIMBOL) fSyms: String,
-        @Query(QUERY_PARAM_API_KEY) apiKey: String = "bcd9a7f860cf051f
+        @Query(QUERY_PARAM_API_KEY) apiKey: String = "bcd9a7f860cf051f79ac147c33e5d934029759a50e3aa9cd305708c9f8aaf90b"
+    ):  CoinPriceRAW
+
+    companion object {
+        private const val QUERY_PARAM_LIMIT = "limit"
+        private cons
