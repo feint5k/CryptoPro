@@ -47,4 +47,17 @@ class CoinAdapter(private val context: CoinPricefragment1) :
             tvUpdate.text = String.format(lastTemplate, coin.getFormatedTime())
             Glide.with(context)
                 .load(coin.getFullImageUrl())
-                .into(ho
+                .into(holder.logoCoin)
+        }
+
+    }
+
+    override fun getItemCount(): Int {
+        return coinInfoList.size
+    }
+
+    interface OnCoinClickListener {
+        fun onCoinClick(coinPriceInfo: CoinPriceInfo)
+    }
+
+
