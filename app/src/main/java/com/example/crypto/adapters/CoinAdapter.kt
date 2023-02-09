@@ -61,3 +61,4 @@ class CoinAdapter(private val context: CoinPricefragment1) :
     }
 
 
+}
