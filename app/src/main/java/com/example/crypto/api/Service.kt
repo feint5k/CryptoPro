@@ -16,4 +16,6 @@ interface Service {
 
     @GET("pricemultifull")
     suspend fun getFullPriceList(
-        @Query(QUERY_PARAM_TSIMBO
+        @Query(QUERY_PARAM_TSIMBOLS) tSyms: String = QUERY_PARAM_CURRENCY,
+        @Query(QUERY_PARAM_FSIMBOL) fSyms: String,
+        @Query(QUERY_PARAM_API_KEY) apiKey: String = "bcd9a7f860cf051f
