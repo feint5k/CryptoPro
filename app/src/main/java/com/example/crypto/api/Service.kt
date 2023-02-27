@@ -26,4 +26,7 @@ interface Service {
         private const val QUERY_PARAM_TSIMBOL = "tsym"
         private const val QUERY_PARAM_API_KEY = "api_key"
         private const val QUERY_PARAM_CURRENCY = "USD"
-        private const val QU
+        private const val QUERY_PARAM_FSIMBOL = "fsyms"
+        private const val QUERY_PARAM_TSIMBOLS = "tsyms"
+    }
+}
