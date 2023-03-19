@@ -13,4 +13,8 @@ interface CoinPriceDAO {
     fun getPriceList():LiveData<List<CoinPriceInfo>>
 
     @Query ("SELECT * FROM full_price_list WHERE FROMSYMBOL == :fSym LIMIT 1")
-    fun getPriceInfoAboutCoin(fSym:
+    fun getPriceInfoAboutCoin(fSym:String):LiveData<CoinPriceInfo>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertPriceList (priceList: List<CoinPriceInfo>)
+}
