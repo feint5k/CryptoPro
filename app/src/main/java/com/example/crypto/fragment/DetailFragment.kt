@@ -36,4 +36,7 @@ class DetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val ii = requireArgumen
+        val ii = requireArguments().getString(EXTRA_FROM_SYMBOL)
+        viewModel = ViewModelProviders.of(this).get(CoinViewModel::class.java)
+        if (ii != null) {
+            viewModel?.getDetailInfo(ii)?.ob
