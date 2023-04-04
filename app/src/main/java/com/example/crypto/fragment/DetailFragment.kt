@@ -8,4 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvi
+import androidx.lifecycle.ViewModelProviders
+import com.bumptech.glide.Glide
+import com.example.crypto.CoinViewModel
+import com.example.crypto.R
+import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.fragmen
