@@ -16,4 +16,11 @@ import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_detail.*
 import kotlinx.android.synthetic.main.item_coin_info.*
 import kotlinx.android.synthetic.main.item_coin_info.tvPrice
-import kotlinx.android.synthetic.main.fragment_det
+import kotlinx.android.synthetic.main.fragment_detail.ivLogoCoin
+
+class DetailFragment : Fragment() {
+    private var viewModel: CoinViewModel? = null
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.on
