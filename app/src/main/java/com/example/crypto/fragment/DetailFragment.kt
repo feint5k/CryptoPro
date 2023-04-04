@@ -13,4 +13,7 @@ import com.bumptech.glide.Glide
 import com.example.crypto.CoinViewModel
 import com.example.crypto.R
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.fragmen
+import kotlinx.android.synthetic.main.fragment_detail.*
+import kotlinx.android.synthetic.main.item_coin_info.*
+import kotlinx.android.synthetic.main.item_coin_info.tvPrice
+import kotlinx.android.synthetic.main.fragment_det
