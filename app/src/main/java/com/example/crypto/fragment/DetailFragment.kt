@@ -39,4 +39,7 @@ class DetailFragment : Fragment() {
         val ii = requireArguments().getString(EXTRA_FROM_SYMBOL)
         viewModel = ViewModelProviders.of(this).get(CoinViewModel::class.java)
         if (ii != null) {
-            viewModel?.getDetailInfo(ii)?.ob
+            viewModel?.getDetailInfo(ii)?.observe(viewLifecycleOwner, Observer {
+                tvPrice.text = it.PRICE.toString()
+                tvMinPrice.text = it.LOWDAY.toString()
+                tvMaxPrice.text = it.
