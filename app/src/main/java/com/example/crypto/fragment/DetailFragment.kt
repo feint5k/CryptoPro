@@ -45,4 +45,10 @@ class DetailFragment : Fragment() {
                 tvMaxPrice.text = it.HIGHDAY.toString()
                 tvLastMarket.text = it.LASTMARKET.toString()
                 tvLastUpdate.text = it.getFormatedTime()
-                tvFromSymbo
+                tvFromSymbol.text = it.FROMSYMBOL
+                tvToSymbol.text = it.TOSYMBOL
+                Picasso.get().load(it.getFullImageUrl()).into(ivLogoCoin)
+
+            })
+        }
+        return inf
