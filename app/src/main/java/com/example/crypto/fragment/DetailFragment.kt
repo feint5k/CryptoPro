@@ -42,4 +42,7 @@ class DetailFragment : Fragment() {
             viewModel?.getDetailInfo(ii)?.observe(viewLifecycleOwner, Observer {
                 tvPrice.text = it.PRICE.toString()
                 tvMinPrice.text = it.LOWDAY.toString()
-                tvMaxPrice.text = it.
+                tvMaxPrice.text = it.HIGHDAY.toString()
+                tvLastMarket.text = it.LASTMARKET.toString()
+                tvLastUpdate.text = it.getFormatedTime()
+                tvFromSymbo
