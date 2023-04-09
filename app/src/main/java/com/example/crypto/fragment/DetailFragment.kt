@@ -51,4 +51,11 @@ class DetailFragment : Fragment() {
 
             })
         }
-        return inf
+        return inflater.inflate(R.layout.fragment_detail, container, false)
+    }
+
+    companion object {
+       private const val EXTRA_FROM_SYMBOL = "fSym"
+
+        @JvmStatic
+        fun newIn
