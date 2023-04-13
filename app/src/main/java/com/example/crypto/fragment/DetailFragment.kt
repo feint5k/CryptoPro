@@ -58,4 +58,8 @@ class DetailFragment : Fragment() {
        private const val EXTRA_FROM_SYMBOL = "fSym"
 
         @JvmStatic
-        fun newIn
+        fun newInstance(fromSymbol: String) = DetailFragment().apply {
+            arguments = bundleOf(
+                EXTRA_FROM_SYMBOL to fromSymbol
+            )
+      
