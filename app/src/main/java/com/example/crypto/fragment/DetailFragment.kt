@@ -62,4 +62,7 @@ class DetailFragment : Fragment() {
             arguments = bundleOf(
                 EXTRA_FROM_SYMBOL to fromSymbol
             )
-      
+        }
+
+    }
+}
