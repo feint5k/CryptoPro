@@ -125,3 +125,42 @@ data class CoinPriceInfo(
 
     @SerializedName("CONVERSIONSYMBOL")
     var CONVERSIONSYMBOL: String? = null,
+
+    @SerializedName("SUPPLY")
+    var SUPPLY: Double? = null,
+
+    @SerializedName("MKTCAP")
+    var MKTCAP: Double? = null,
+
+    @SerializedName("MKTCAPPENALTY")
+    var MKTCAPPENALTY: Int? = null,
+
+    @SerializedName("CIRCULATINGSUPPLY")
+    var CIRCULATINGSUPPLY: Double? = null,
+
+    @SerializedName("CIRCULATINGSUPPLYMKTCAP")
+    var CIRCULATINGSUPPLYMKTCAP: Double? = null,
+
+    @SerializedName("TOTALVOLUME24H")
+    var TOTALVOLUME24H: Double? = null,
+
+    @SerializedName("TOTALVOLUME24HTO")
+    var TOTALVOLUME24HTO: Double? = null,
+
+    @SerializedName("TOTALTOPTIERVOLUME24H")
+    var TOTALTOPTIERVOLUME24H: Double? = null,
+
+    @SerializedName("TOTALTOPTIERVOLUME24HTO")
+    var TOTALTOPTIERVOLUME24HTO: Double? = null,
+
+    @SerializedName("IMAGEURL")
+    var IMAGEURL: String? = null
+
+){
+    fun getFormatedTime(): String {
+    return convertTime(LASTUPDATE)
+    }
+    fun getFullImageUrl(): String{
+return BASE_URL_IMG  + IMAGEURL
+    }
+}
