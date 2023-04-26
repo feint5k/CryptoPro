@@ -7,4 +7,5 @@ data class Datum(
 
     @SerializedName("CoinInfo")
     @Expose
-    val 
+    val coinInfo: CoinInfo? = null
+)
