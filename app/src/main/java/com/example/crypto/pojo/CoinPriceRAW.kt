@@ -8,3 +8,4 @@ data class CoinPriceRAW (
     @SerializedName("RAW")
     @Expose
     val coinPriceInfoObject: Map<String,Map<String,CoinPriceInfo>>? = null
+)
