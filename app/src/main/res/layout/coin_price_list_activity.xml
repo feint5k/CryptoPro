@@ -4,4 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/place_holder"
     android:layout_width="match_parent"
-    android
+    android:layout_height="match_parent"
+    tools:context=".CoinPriceListActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_holder"
+        android:layout_width="match_paren
