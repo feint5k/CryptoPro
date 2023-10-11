@@ -23,4 +23,8 @@
             tools:src="@mipmap/ic_launcher" />
 
         <TextView
-            android:id="@+i
+            android:id="@+id/tvFromSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_purple"
+        
