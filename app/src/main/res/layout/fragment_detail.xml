@@ -30,4 +30,10 @@
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="@id/tvSlash"
             app:layout_constraintEnd_toStartOf="@id/tvSlash"
-            app:layout_constraintTop_toT
+            app:layout_constraintTop_toTopOf="@id/tvSlash"
+            tools:text="BTC" />
+
+        <TextView
+            android:id="@+id/tvSlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content
