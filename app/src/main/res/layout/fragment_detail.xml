@@ -46,4 +46,8 @@
             app:layout_constraintTop_toBottomOf="@id/ivLogoCoin" />
 
         <TextView
-            an
+            android:id="@+id/tvToSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            a
