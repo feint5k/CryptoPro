@@ -53,4 +53,9 @@
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="@id/tvSlash"
             app:layout_constraintStart_toEndOf="@id/tvSlash"
-            app:layo
+            app:layout_constraintTop_toTopOf="@id/tvSlash"
+            tools:text="USD" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            and
