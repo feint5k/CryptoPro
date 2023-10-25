@@ -71,4 +71,7 @@
 
                 <TextView
                     android:id="@+id/tvPriceLabel"
-   
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    
