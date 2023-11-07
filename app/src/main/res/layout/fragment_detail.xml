@@ -89,4 +89,9 @@
                     android:textColor="#000"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@id/tvPriceLabel"
-  
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="7352.5" />
+
+                <View
+                    android:layout_width="match_parent"
+             
