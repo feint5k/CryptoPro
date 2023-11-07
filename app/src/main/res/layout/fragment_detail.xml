@@ -85,4 +85,8 @@
                     android:id="@+id/tvPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layou
+                    android:layout_marginStart="8dp"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@id/tvPriceLabel"
+  
