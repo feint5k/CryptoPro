@@ -109,4 +109,8 @@
                     android:text="@string/min_day"
                     android:textColor="#000"
                     android:textSize="16sp"
-                    app:layout_constraintStart_toS
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvPriceLabel" />
+
+                <TextView
+                    android:id="@+id/tv
