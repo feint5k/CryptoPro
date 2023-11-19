@@ -116,4 +116,7 @@
                     android:id="@+id/tvMinPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8d
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp
