@@ -122,4 +122,9 @@
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@id/tvMinPriceLabel"
                     app:layout_constraintTop_toBottomOf="@id/tvPriceLabel"
-                    tools:
+                    tools:text="7110.0" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:lay
