@@ -156,4 +156,8 @@
                     app:layout_constraintTop_toBottomOf="@id/tvMinPriceLabel"
                     tools:text="7820.1" />
 
-   
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+              
