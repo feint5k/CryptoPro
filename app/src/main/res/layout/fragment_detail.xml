@@ -174,4 +174,9 @@
                     android:textColor="#000"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tvMaxP
+                    app:layout_constraintTop_toBottomOf="@id/tvMaxPriceLabel" />
+
+                <TextView
+                    android:id="@+id/tvLastMarket"
+                    android:layout_width="wrap_content"
+                    andro
