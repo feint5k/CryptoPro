@@ -185,4 +185,9 @@
                     android:textColor="#000"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@id/tvLastMarketLabel"
-                    app:layout_constraintTop_toBottomOf="@
+                    app:layout_constraintTop_toBottomOf="@id/tvMaxPriceLabel"
+                    tools:text="Bitfinex" />
+
+                <View
+                    android:layout_width="match_parent"
+                    androi
