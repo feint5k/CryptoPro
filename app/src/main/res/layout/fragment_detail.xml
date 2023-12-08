@@ -193,4 +193,8 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="8dp"
                     android:background="#63000000"
-                    app:layout_constr
+                    app:layout_constraintTop_toBottomOf="@id/tvLastMarketLabel" />
+
+                <TextView
+                    android:id="@+id/tvLastUpdateLabel"
+                    android:layout_width="wra
