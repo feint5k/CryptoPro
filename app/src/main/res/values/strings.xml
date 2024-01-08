@@ -2,4 +2,7 @@
     <string name="app_name">Crypto</string>
     <string name="symbols_template">%s / %s</string>
     <string name="last_update_str">Время последнего обновления: </string>
-    <!-- TODO: Remove or change this place
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slash">/</string>
+    <string name="min_day">Минимум за д
