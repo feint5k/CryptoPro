@@ -8,4 +8,5 @@
     <string name="min_day">Минимум за день</string>
     <string name="price_coin">Цена</string>
     <string name="max_price_coin">Максимум за день</string>
-    <string name="update_coin">Обновлено</stri
+    <string name="update_coin">Обновлено</string>
+</resources>
