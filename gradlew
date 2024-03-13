@@ -172,4 +172,11 @@ if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then
     esac
 fi
 
-# Escape applicat
+# Escape application args
+save () {
+    for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done
+    echo " "
+}
+APP_ARGS=`save "$@"`
+
+# Collect all arguments for the java
